@@ -40,6 +40,9 @@
                 </button>
             </div>
         </div>
+        <div class="container-fluid">
+            <p class="text-center">{{$projet->desc}}</p>
+        </div>
         <div class="bottom text-center top">
             <a href="{{route('projets.index')}}"><button type="button" class="btn btn-primary">Retour à la liste des projets</button></a>
             <a target="_blank" href="{{$projet->lien}}"><button type="button" class="btn btn-primary"><i class="bi bi-git blanc"></i> Voir le projet</button></a>
