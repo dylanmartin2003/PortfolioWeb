@@ -11,7 +11,7 @@
     @vite(['resources/css/style.css'])
     <title>Compétences</title>
 </head>
-<body class="bg-black bottom">
+<body class="background2">
 <div class="container-fluid top bottom">
     <p id="p_circle" class="text-center"><i class="bi bi-circle-fill blanc circle"></i><i class="bi bi-circle-fill grey circle"></i><i class="bi bi-circle-fill grey circle"></i></p>
     <div>

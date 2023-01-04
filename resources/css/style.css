@@ -249,15 +249,15 @@ a {
     /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-linear-gradient(
         to left,
-        rgba(240, 147, 251, 1),
-        rgba(245, 87, 108, 1)
+        rgb(79, 245, 145),
+        rgb(84, 234, 116)
     );
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(
         to left,
-        rgba(240, 147, 251, 1),
-        rgba(245, 87, 108, 1)
+        rgb(120, 238, 116),
+        rgb(89, 204, 74)
     );
 }
 
@@ -280,24 +280,39 @@ img[usemap] {
     margin-left: 47%;
 }
 
-.background{
-    background-image: url("../background.png");
+.background2{
+    background-image: url("../back2.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: 6rem;
+    background-position-y: 11rem;
+    background-color: black;
+}
+
+.background{
+    background-image: url("../back2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.background3{
+    background-image: url("../back3.jpg");
+    background-size: 100%;
+    background-position-y: 10rem;
+    background-repeat: no-repeat;
     background-color: black;
 }
 
 .carte{
     width: 22%;
     margin-top: 4%;
-    margin-left: 38%;
+    margin-left: 70%;
 }
 
 .control1{
-    margin-left: 28%;
+    margin-left: 60%;
 }
 
 .control2{
-    margin-right: 30%;
+    padding-left: 3.5%;
 }
